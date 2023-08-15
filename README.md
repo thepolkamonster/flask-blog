@@ -17,5 +17,7 @@ A simple blogging app using flask.
 ## Some sample images
 
 https://1drv.ms/i/s!AnKw8cwIQ3k9ip0Odn-y6-2PIVa4EA?e=pqkakQ
+<br>
 https://1drv.ms/i/s!AnKw8cwIQ3k9ip0P6T71zZXG3meYLw?e=YQ59mr
+<br>
 https://1drv.ms/i/s!AnKw8cwIQ3k9ip0QZjDwYzS2vYtK6w?e=LetWP2
