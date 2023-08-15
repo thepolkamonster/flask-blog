@@ -1,0 +1,28 @@
+{% extends 'layout.html'%} {%block head%}
+<title>Account Settings</title>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/adminPanel.css') }}"
+/>
+{% endblock head %} {%block body%}
+<div class="toPanelsContainer">
+  <h2>
+    <a href="/changeusername" class="toPanel textPrimary"
+      >change your username</a
+    >
+  </h2>
+  <h2>
+    <a href="/changepassword" class="toPanel textPrimary"
+      >change your password</a
+    >
+  </h2>
+  <h2>
+    <form method="post">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+      <button type="submit" name="userDeleteButton" class="toPanel textPrimary">
+        delete your account
+      </button>
+    </form>
+  </h2>
+</div>
+{% endblock body %}
